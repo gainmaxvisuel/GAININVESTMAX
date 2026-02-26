@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #0A1F44, #1E88E5);
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  color: white;
+}
+
+.container {
+  padding: 15px;
+  padding-bottom: 80px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #0A1F44, #1E88E5);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.deposit {
+  background: #00C853;
+  color: white;
+}
+
+.withdraw {
+  background: #FF3D00;
+  color: white;
+}
+
+.vip-button {
+  background: #1E88E5;
+  color: white;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+}
